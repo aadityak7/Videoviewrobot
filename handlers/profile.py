@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from main import app
+from bot import app
 from utils import get_user_data
 
 @app.on_callback_query(filters.regex("profile"))
