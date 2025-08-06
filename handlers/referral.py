@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from main import app
+from bot import app
 from utils import get_user_data, update_user_data, save_data
 from config import BOT_TOKEN
 
