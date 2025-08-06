@@ -1,7 +1,7 @@
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import FORCE_JOIN
-from main import app
+from bot import app
 
 async def check_force_join(client, message):
     try:
