@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from main import app
+from bot import app
 from utils import USERS, get_user_data, update_user_data, save_data
 import json
 
