@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from config import VIDEO_DB, DOWNLOAD_DELETE_TIME, VIDEO_DELETE_TIME
 from utils import get_user_data, update_user_data, countdown_timer
-from main import app
+from bot import app
 
 @app.on_callback_query(filters.regex("get_video"))
 async def ask_video_code(client, callback_query: CallbackQuery):
