@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import ADMINS
-from main import app
+from bot import app
 from handlers.forcejoin import check_force_join
 
 @app.on_message(filters.command("start"))
